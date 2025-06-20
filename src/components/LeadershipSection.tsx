@@ -6,43 +6,46 @@ const LeadershipSection = () => {
       id: 1,
       image:
         "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=400&h=300&fit=crop",
-      title: "Студенческий совет",
-      description: "Организация культурных мероприятий",
+      title: "Комиссар Штаба студенческих отрядов УлГТУ",
+      description:
+        "Координация команд, проведение Спартакиад и творческих школ",
     },
     {
       id: 2,
       image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
-      title: "Конференция лидеров",
-      description: "Выступление перед аудиторией",
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop",
+      title: "Руководитель Союза отрядных гитаристов",
+      description:
+        "Объединение музыкантов и организация конкурсов авторской песни",
     },
     {
       id: 3,
       image:
         "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&h=300&fit=crop",
-      title: "Волонтерский проект",
-      description: "Помощь в социальных программах",
+      title: "Организатор крупных событий",
+      description:
+        "От окружных школ командиров до Всероссийских акций «ТрудКрут»",
     },
     {
       id: 4,
       image:
         "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=300&fit=crop",
-      title: "Командная работа",
-      description: "Работа с творческими коллективами",
+      title: "Карьерные форумы",
+      description: "Организация и проведение профориентационных мероприятий",
     },
     {
       id: 5,
       image:
         "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop",
-      title: "Городской форум",
-      description: "Участие в молодежных инициативах",
+      title: "Волонтёрские проекты",
+      description: "Помощь на Губернаторском балу и фестивалях",
     },
     {
       id: 6,
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
-      title: "Наставничество",
-      description: "Менторство для студентов",
+      title: "Всероссийский отрядный форум",
+      description: "Участие в крупных федеральных мероприятиях в Казани",
     },
   ];
 
@@ -57,11 +60,12 @@ const LeadershipSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Организаторская <span className="gradient-text">деятельность</span>
+            Общественная <span className="gradient-text">деятельность</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Лидерство через вдохновение и объединение людей для достижения общих
-            целей. Опыт организации мероприятий и управления командами.
+            Энергия и вдохновение — моя жизнь тесно связана с студенческими
+            отрядами и организацией мероприятий. Я не просто участник — я лидер,
+            организатор, вдохновитель.
           </p>
         </motion.div>
 
